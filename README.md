@@ -21,5 +21,7 @@ It communicates with the place class to generate the place object with co ordina
 Lets dive into the details of the software architecture of the ros workspace:
 The workspace consist of the scripts , launch and srv directories & cluedo ontology file. Scripts directory contains all the scripts and class to execure the architecture. Launch folder contain the launch file to execute all the nodes to simulate the game. srv folder has all the service messages. 
 
+###SCRIPTS:
 
+###STATE_MACHINE.PY:
 
