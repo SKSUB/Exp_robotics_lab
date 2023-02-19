@@ -36,6 +36,20 @@ This node stimulate the three sates of the robot. The three states are move stat
  ### go_to_point.py:
  This is a node simulate the movement of the robot. It generates wait time when the state machine request for the movement simulation. It calculates the euclidean diestance between the point one to another and wait for the time to reach the distance. And sends the complete signal to state machine.
  
+ ### myArmor class:
+ This is the class method to communicate with the Armor service. It is based on the message format to be communicated with the Armor service.
+ 
+ ### place class:
+ THis is the class to create a place object.
+ 
+ ### LAUNCH FILE: simulation.launch
+ Launch file for launching all the above nodes as well as smach viewer.
+ 
+ ### service messages:
+ AskHint.srv for asking hint with the ID.
+ Move.srv for sending the position of the starting and ending place. Returns bool message.
+ AskHint.srv sends the hint and returns bool message.
+ 
  
             
 
