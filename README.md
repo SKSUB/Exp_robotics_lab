@@ -17,3 +17,9 @@ It ask the hints with the oracle node. Oracel node provide the hint (what[], whe
 It communicates with the myArmor class to effectively communicate with the armor service. myArmor class communicates with the armor service and sends the response from armor service back to the state machine node. It perfoems all the armor functions. 
 
 It communicates with the place class to generate the place object with co ordinates of the place and its name. 
+
+Lets dive into the details of the software architecture of the ros workspace:
+The workspace consist of the scripts , launch and srv directories & cluedo ontology file. Scripts directory contains all the scripts and class to execure the architecture. Launch folder contain the launch file to execute all the nodes to simulate the game. srv folder has all the service messages. 
+
+
+
