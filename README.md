@@ -47,9 +47,18 @@ This node stimulate the three sates of the robot. The three states are move stat
  
  ### service messages:
  AskHint.srv for asking hint with the ID.
+ 
  Move.srv for sending the position of the starting and ending place. Returns bool message.
+ 
  AskHint.srv sends the hint and returns bool message.
  
+ The cleudo onotology file contains the knowledge of the initial scene. Once the solution is obtianed solution_cluedo_ontology file is generated with the solution hypothesis. 
  
+ In order to better visualise the order of the simulation, a temporal diagram is created.
+ 
+ TEMPORAL DIAGRAM:
+ ![cluedo_temporal](https://user-images.githubusercontent.com/82164428/219983056-8846a53e-a141-4303-9bd0-0469e2532b10.jpg)
+
+
             
 
