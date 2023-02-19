@@ -12,4 +12,8 @@ Finite state machine node is the main node of the architecure, with which each a
 
 Finite state machine node ask the go to point node to simulate the movement of the robot from point to point. It sends the co ordinates to the go to point to simulate the movibg action.
 
+It ask the hints with the oracle node. Oracel node provide the hint (what[], where[], who[]) with the ID. It also ask the oracle node for solution check. Oracle send back the true or false for the solution check.
 
+It communicates with the myArmor class to effectively communicate with the armor service. myArmor class communicates with the armor service and sends the response from armor service back to the state machine node. It perfoems all the armor functions. 
+
+It communicates with the place class to generate the place object with co ordinates of the place and its name. 
