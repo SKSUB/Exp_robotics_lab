@@ -8,3 +8,8 @@ In order to better understand the software architecture we can utilise the UML c
 UML COMPONENT DIAGRAM
 ![CLUDO_FSM](https://user-images.githubusercontent.com/82164428/219979474-29c5449c-e85b-4ddb-817e-4d44d3e8b080.jpg)
 
+Finite state machine node is the main node of the architecure, with which each and every node communicates. It simulates the scene of the cluedo gmae. At first orcale node genreates the solution when the game starts. 
+
+Finite state machine node ask the go to point node to simulate the movement of the robot from point to point. It sends the co ordinates to the go to point to simulate the movibg action.
+
+
