@@ -24,5 +24,18 @@ The workspace consist of the scripts , launch and srv directories & cluedo ontol
 ### SCRIPTS:
 
 ### STATE_MACHINE.PY: 
-HHJ
+This node stimulate the three sates of the robot. The three states are move state, enter the room state and the solution check state. 
+  
+ 1)MOVE: In the first state the robot starts from the oracle room and start to explore rooms in order to acquire hints. The Move custom service message is send to the go_to_point node in order to simulate the movement of the robot. And it is followed by any one of the following state.
+ 2)ENTER_ROOM: The robot enters the room and ask the hint with the AskHint custom message to oracle node, oracle node provides the hint with the ID. Then it add the hints to the ontology by MYArmor class and checks for the consistency. If it is consistent, it goes to the oracle room to check the solution.
+ 3)SOLUTION: This is the state which the robot try to check the solution with the Solution custom message to the oracle node. Based on the solution i.e whether it is true or false it ask to end of game solution or goes back to move node.
+ 
+ ### ORACLE.PY
+ ORACLE is the simulator of the oracle room of the game. It generates the solution at first. Whenver the hint is requested it genrates the random hints. Hints are always random with the place, person and weapon and it is generated with the hint ID. Hints are too random sometimes inconsistent and incomplete hints are generated. It also checks for solution correctness when requested by the state machine node.
+ 
+ ### go_to_point.py:
+ This is a node simulate the movement of the robot. It generates wait time when the state machine request for the movement simulation. It calculates the euclidean diestance between the point one to another and wait for the time to reach the distance. And sends the complete signal to state machine.
+ 
+ 
+            
 
