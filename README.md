@@ -4,5 +4,7 @@ Purpose of this repository is to develop the assignment 1 of Experimental Roboti
 
 ## SOFTWARE ARCHITECTURE
 In order to better understand the software architecture we can utilise the UML component diagram
+
+UML COMPONENT DIAGRAM
 ![CLUDO_FSM](https://user-images.githubusercontent.com/82164428/219979474-29c5449c-e85b-4ddb-817e-4d44d3e8b080.jpg)
 
