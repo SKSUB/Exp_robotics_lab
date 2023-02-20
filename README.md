@@ -103,11 +103,11 @@ End result:
 
 ![Screenshot 2023-02-19 224952](https://user-images.githubusercontent.com/82164428/219983863-542313ac-c69d-4e7b-8704-ebd087152d3d.png)
 
+This is the obtained solution at the end of the simulation.
+
 RQT graph:
 
 ![rosgraph](https://user-images.githubusercontent.com/82164428/219989710-66fd17a1-7deb-47dd-b993-f9ef9c1dde45.png)
-
-This is the obtained solution at the end of the simulation.
 
 ## SYSTEM WORKING AND LIMITATIONS
 The working of the system is to generate the hints and perform communication with the armor service, the loop is continued until the hint gnerated need to be complete and consistent. Once the generated hint is complete and consistent, it is check for solution. Again the loop is continued from the first step. In the between stages, the robot has to move between places randomly and collect all the hints. And also all the hints need to be added to ontology and removed from the ontology if they are not complete and incosistent.
