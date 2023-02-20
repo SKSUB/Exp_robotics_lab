@@ -93,16 +93,23 @@ This will launch all the nodes and smach viewer.
 Following are the pictures showing the result of simulation:
 
 Running simulation:
+
 ![running](https://user-images.githubusercontent.com/82164428/219983786-a07a1c18-617b-45d5-87ae-3b0306340cde.png)
 
 The above pictures shows the smach viewer with all the running node. You can really view all the states of the robot in the smach viewer.
 
 End result:
+
 ![Screenshot 2023-02-19 224952](https://user-images.githubusercontent.com/82164428/219983863-542313ac-c69d-4e7b-8704-ebd087152d3d.png)
 
 This is the obtained solution at the end of the simulation.
 
 ## SYSTEM WORKING AND LIMITATIONS
+The working of the system is to generate the hints and perform communication with the armor service, the loop is continued until the hint gnerated need to be complete and consistent. Once the generated hint is complete and consistent, it is check for solution. Again the loop is continued from the first step. In the between stages, the robot has to move between places randomly and collect all the hints. And also all the hints need to be added to ontology and removed from the ontology if they are not complete and incosistent.
+
+So based on the above working hypothesis the straightforward limitation is the simulation is time consumimg because of all the randombness attach with it. Each time the random hints are added and removed. And there is wait time for the robot to move between places. The hints generation randomness is time consumign process, it takes more time to generate the complete and consistent hint. And that one as well need to be a solution. And every armor service is called to performed to query the ontology. Even though sometimes it is called for the inconsistent one. And also the inconsistent one are added and removed.
+
+In the future to improve the system, the hints genration are first check for completeness at first and then the armor service is called. Then we can add them ontology based on armor response. 
 
 ### CONTACTS
 SATHISH KUMAR SUBRAMANI.
