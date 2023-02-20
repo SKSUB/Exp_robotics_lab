@@ -69,12 +69,14 @@ This node stimulate the three sates of the robot. The three states are move stat
  ## INSTALLATION AND RUNNING:
  
  In order to run the simulation clone this repostitory into your workspace. If you are running on the docker machine of the course no need to clone other packages. Otherwise clone the smach and armor service packages into your workspace. And more details on installation and running armor and smach on the link provided above.
+ ```
+ git clone https://github.com/SKSUB/Exp_robotics_lab_1
+ ```
 
 After cloning usual procedures of building the package, and install the dependencies based on the error.
-
-'''
+```
 catkin_make
-'''
+```
 
             
 
