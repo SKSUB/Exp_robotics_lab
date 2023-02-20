@@ -103,6 +103,10 @@ End result:
 
 ![Screenshot 2023-02-19 224952](https://user-images.githubusercontent.com/82164428/219983863-542313ac-c69d-4e7b-8704-ebd087152d3d.png)
 
+RQT graph:
+
+![rosgraph](https://user-images.githubusercontent.com/82164428/219989710-66fd17a1-7deb-47dd-b993-f9ef9c1dde45.png)
+
 This is the obtained solution at the end of the simulation.
 
 ## SYSTEM WORKING AND LIMITATIONS
