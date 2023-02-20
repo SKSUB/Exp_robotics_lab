@@ -64,6 +64,7 @@ This node stimulate the three sates of the robot. The three states are move stat
  In order to better visualise the order of the simulation, a temporal diagram is created.
  
  TEMPORAL DIAGRAM:
+ 
  ![cluedo_temporal](https://user-images.githubusercontent.com/82164428/219983056-8846a53e-a141-4303-9bd0-0469e2532b10.jpg)
  
  ## INSTALLATION AND RUNNING:
