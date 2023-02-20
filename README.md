@@ -102,6 +102,11 @@ End result:
 
 This is the obtained solution at the end of the simulation.
 
+## SYSTEM WORKING AND LIMITATIONS
 
+### CONTACTS
+SATHISH KUMAR SUBRAMANI.
+ROBOTICS ENGINEER, UNIGE.
+4847560@studenti.unige.it
             
 
