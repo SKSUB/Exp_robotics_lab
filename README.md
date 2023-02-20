@@ -77,6 +77,31 @@ After cloning usual procedures of building the package, and install the dependen
 ```
 catkin_make
 ```
+Run the roscore and armor service before running the simulation.
+```
+roscore
+```
+```
+rosrun armor execute it.emarolab.armor.ARMORMainService
+```
+Then launch the simulation with the launch file
+```
+roslaunch Exp_robotics_lab_1 simulation.launch
+```
+This will launch all the nodes and smach viewer.
+
+Following are the pictures showing the result of simulation:
+
+Running simulation:
+![running](https://user-images.githubusercontent.com/82164428/219983786-a07a1c18-617b-45d5-87ae-3b0306340cde.png)
+
+The above pictures shows the smach viewer with all the running node. You can really view all the states of the robot in the smach viewer.
+
+End result:
+![Screenshot 2023-02-19 224952](https://user-images.githubusercontent.com/82164428/219983863-542313ac-c69d-4e7b-8704-ebd087152d3d.png)
+
+This is the obtained solution at the end of the simulation.
+
 
             
 
