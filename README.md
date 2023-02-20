@@ -54,11 +54,27 @@ This node stimulate the three sates of the robot. The three states are move stat
  
  The cleudo onotology file contains the knowledge of the initial scene. Once the solution is obtianed solution_cluedo_ontology file is generated with the solution hypothesis. 
  
+ ### OTHER PACKAGES:
+ ARMOR SERVICE (More details in https://github.com/EmaroLab/armor)
+ 
+ SMACH (More details in https://wiki.ros.org/smach)
+ 
+ You need to have this packages in your workspace to run the simulation
+ 
  In order to better visualise the order of the simulation, a temporal diagram is created.
  
  TEMPORAL DIAGRAM:
  ![cluedo_temporal](https://user-images.githubusercontent.com/82164428/219983056-8846a53e-a141-4303-9bd0-0469e2532b10.jpg)
+ 
+ ## INSTALLATION AND RUNNING:
+ 
+ In order to run the simulation clone this repostitory into your workspace. If you are running on the docker machine of the course no need to clone other packages. Otherwise clone the smach and armor service packages into your workspace. And more details on installation and running armor and smach on the link provided above.
 
+After cloning usual procedures of building the package, and install the dependencies based on the error.
+
+'''
+catkin_make
+'''
 
             
 
