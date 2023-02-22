@@ -54,7 +54,7 @@ class MyArmor(object):
 #Below are the methods to request appropriate command to the ARMOR         
     def add_hypothesis(type, ID, arg):
         '''
-        This is the method to add the hupothesis to the ontology.
+        This is the method to add the hypothesis to the ontology.
         '''
 
         req=ArmorDirectiveReq()
@@ -101,7 +101,7 @@ class MyArmor(object):
 
     def ask_inconsistent():
         '''
-        Request to incnsistent with the hypothesis of the ontology.
+        Request to inconsistent with the hypothesis of the ontology.
         '''
 
         req=ArmorDirectiveReq()
