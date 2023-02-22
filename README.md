@@ -50,7 +50,7 @@ This node stimulate the three sates of the robot. The three states are move stat
  
  Move.srv for sending the position of the starting and ending place. Returns bool message.
  
- AskHint.srv sends the hint and returns bool message.
+ Solution.srv sends the hint and returns bool message.
  
  The cleudo onotology file contains the knowledge of the initial scene. Once the solution is obtianed solution_cluedo_ontology file is generated with the solution hypothesis. 
  
